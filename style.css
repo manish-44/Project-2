@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+    /* transition-duration: 5000ms; */
+}
+
+
 body{
     background-color:#2a2d30;
     font-family: 'Rubik', sans-serif;
@@ -6,6 +12,118 @@ body{
 }
 
 /* .........part-1............. */
+
+/* slide Navbar */
+
+.open-navbar{
+    background-color: #232329;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 91px;
+    height: 100%;
+}
+.open-navbar p{
+    display: inline;
+    position: absolute;
+    left: 36px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.close-navbar{
+    display: inline;
+    position: absolute;
+    left: 36px;
+    top: -2px;
+    cursor: pointer;
+}
+
+
+.slide-navbar{
+    background-color: #6DB363;
+    /* font-family: sans-serif; */
+    /* font-weight: bold; */
+    position: fixed;
+    overflow: auto;
+    padding-top: 82px;
+    z-index: 1;
+    font-size: 30px;
+    width: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.slide{
+    width: 248px;
+    padding-top: 82px;
+    padding-left: 70px;
+}
+
+.slide-navbar  p{
+    line-height: 25px;
+}
+.slide-navbar a{
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width : 1020px){
+    .open-navbar{
+        height: 60px;
+        width: 100%;
+    }
+    .open-navbar p{
+        top: 0;
+        left: 22px;
+    }
+    .close-navbar{
+        top: -16px;
+        left: 22px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .slide{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 60px;
+    }
+
+}
+
+
+/* Cover Letter */
+
+.cover-letter{
+    padding: 0px 55px;
+    margin-left: 100px;
+    font-family: sans-serif ;
+}
+.cover-letter h1{
+    margin-bottom: 50px;
+    color: #6DB363;
+}
+.cover-letter h2{
+    color: #6DB363;
+}
+.cover-letter p{
+    margin: 40px 0;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1020px){
+.cover-letter{
+    padding: 0px 53px;
+    margin: 0;
+    /* width: 90%; */
+}
+}
+
+
 
 
 /* .........part-3(contact-us)------ */

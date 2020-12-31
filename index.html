@@ -1,18 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Project 2</title>
         <link rel="stylesheet"  type="text/css" href="style.css" >
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
+        <!-- Section Slide Navbar  -->
+    
+        <div class="open-navbar">
+            <p onclick="openNavbar()">&#9776;</p>
+        </div>
+    
+
+        <div id="slide" class="slide-navbar">
+            <div>
+                <p onclick="closeNavbar()" class="close-navbar">&times;</p>
+                <p> Home </p>
+                <p>Introduction</p>
+                <p> Experince</p>
+                <p>Portfolio</p>
+                <p><a href="#contact" onclick="closeNavbar()" >Contact</a></p>
+                <p>Skill</p>
+                <p>Blog</p>
+            </div>
+        </div>
+
+
+
+
+
         <div class="arc-wrapper">
             <div class="arc arc_start"></div>    
             <div class="arc arc_end"></div>
-          </div>
+        </div>
 
-        <div class="contact-box">
+
+
+
+        <!-- Cover Letter -->
+
+        <div class="cover-letter">
+            <h1>Cover letter</h1>
+            <h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.
+            </h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris egestas nulla arcu, ut vestibulum diam vulputate non. Ut massa mauris, condimentum ut tincidunt eu, mattis euismod dolor.</p>
+                <p>Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat maecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Volutpat faucibus sed condimentum aliquet mi, nec lobortis neque gravida tempor.</p>
+                <p>Phasellus non dui sed eros scelerisque gravida eu lobortis magna. Sed vulputate, lacus blandit posuere aliquet, enim purus dignissim nunc, at efficitur nulla lacus id quam. Morbi feugiat neque a quam.</p>
+            </div>
+        </div>
+
+
+         <!-- contact-box -->
+
+        <div id="contact" class="contact-box">
 
             <div class="head">
                 <h1>Get in touch</h1>
@@ -56,6 +101,22 @@
 
             </div>
         </div>
+        
+         
+        
+        
+
+    <script>
+
+        function openNavbar(){
+            document.getElementById("slide").classList.add("slide")
+        }
+        function closeNavbar(){
+            document.getElementById("slide").classList.remove("slide")
+        }
+
+    </script>
+
     </body>
 
 </html>
