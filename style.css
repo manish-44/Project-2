@@ -1,0 +1,90 @@
+body{
+    background-color:#2a2d30;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color:white;
+}
+
+/* .........part-1............. */
+
+
+/* .........part-3(contact-us)------ */
+
+.contact-box{
+    display:block;
+    margin:auto;
+    width:90%;
+    padding:30px;
+}
+
+.head{
+    color:#6db363;
+    line-height: 30px;
+}
+
+.statement{
+    margin:30px 0px;
+    color:white;
+    line-height: 30px;
+}
+
+.details{
+    line-height: 15px;
+    color:#6db363;
+    margin:40px 0px;
+}
+
+.details >p> span{
+    color:white;
+}
+
+
+.form-box{
+    background-color: #6db363;
+    padding: 25px 0px;
+    margin-bottom: 40px;;
+}
+
+input{
+    height:30px;
+}
+
+textarea{
+    height:150px;
+}
+input,textarea{
+    font-size: 15px;
+    color:white;
+    background-color: transparent;
+    border:none;
+    border-bottom:2px solid white;
+    outline-style: none;
+    width:100%;
+}
+
+.input-box{
+    display:block;
+    margin:auto;
+    margin-bottom:60px;
+    width:90%;
+}
+
+::placeholder{
+    font-size: 15px;
+    color:white;
+}
+
+.button-submit{
+    display:block;
+    margin:auto;
+    color:white;
+    width:91%;
+    background-color: transparent;
+    padding:20px 0px;
+    font-size:15px;
+    border:2px solid white;
+    outline-style:none;
+    margin-bottom:15px;
+}
+
+
