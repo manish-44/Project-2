@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 2</title>
+        <link rel="stylesheet"  type="text/css" href="style.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        
+         <!-- for fevicon icon -->
+         <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqCHxOTCwgwl__t9CgXj22eaSHxrL6s_Gj3g&usqp=CAU" type="image/x-icon">
+        <!-- for fevicon icon -->
+
+    </head>
+
+    <body>
+
+        <!-- Section Slide Navbar  -->
+    
+        <div class="open-navbar">
+            <p onclick="openNavbar()">&#9776;</p>
+        </div>
+        
+    
+        <div id="slide" class="slide-navbar">
+            <div>
+                <p onclick="closeNavbar()" class="close-navbar">&times;</p>
+                <p> Home </p>
+                <p>Introduction</p>
+                <p>Portfolio</p>
+                <p> Experince</p>
+                <p>Skill</p>
+                <p>Contact</p>
+                <p>Blog</p>
+            </div>
+        </div>
+    
+
+        <!-- Section Home -->
+
+        <div id="home" class="home">
+            <div class="home-background">
+                <img src="https://images.unsplash.com/photo-1521112376370-0a3b01544ab1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhcHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="background image">
+            </div>
+                <div>
+                    <a class="btn-blog">My blog</a>
+                    <a class="btn-contact" >Contact Me</a>
+                    <a class="btn-download">Download CV</a>
+                    <a class="btn-portfolio">Check My Portfolio</a>
+                </div>
+            <div class="home-div-2">
+                <p class="home-para">Hello <br> I’m Jacob <br> Hawkins</p>
+            </div>
+        </div>
+    
+        <!-- introduce-box(portfolio) -->
+
+        <div class="introduce-box">
+            <h1>Introduce</h1>
+            <p style="color:#6db363">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet tellus pharetra erat tristique erat donec dignissim etiam sed malesik enim sodales lorem ipsum donac.</p>
+             
+            <div class="intro-point">
+                <p><span>NAME:</span> Jacob Hawkins</p>
+                <p><span>CITY:</span> New York</p>
+                <p><span>BIRTHDAY:</span> 25. 03. 1987</p>
+                <p><span>INTEREST:</span>  Basketball, Formula 1</p>
+                <p><span>EMAIL:</span> company@youremail.com</p>
+                <p><span>WEBSITE:</span>www.yourwebsite.com</p>     
+            </div>
+
+            <button class="introduce-button button1">Download CV</button>
+            <button class="introduce-button button2">Check my Portfolio</button>
+
+            <div class="portfolio-design-box">
+
+                <div class="small-portfolio-box">
+                    <div class="design-box">
+                        <i class="fas fa-boxes fa-4x"></i>
+                    </div> 
+                    <h2>Design</h2>  
+                    <p>A full stack allaround designer that may or may not include a guide for specific creative people</p>
+
+                </div>
+
+                <div class="small-portfolio-box">
+                    <div class="design-box">
+                        <i class="fas fa-code-branch fa-4x"></i>
+                    </div> 
+                    <h2>Develop</h2>  
+                    <p>Tellus pharetra erat tristique erat donec dignissim etiam sed malesik enim sodales lorem ipsu</p>
+                </div>
+
+                <div class="small-portfolio-box">
+                    <div class="design-box">
+                        <i class="fab fa-gitlab fa-4x"></i>
+                    </div>  
+                    <h2>Write</h2>  
+                    <p>Vestibulum consequat, dignissim tellus sollicitudin vulputate elit aliquet ullamcorper feugiat nisi</p>
+                </div>
+
+                <div class="small-portfolio-box">
+                    <div class="design-box">
+                        <i class="far fa-thumbs-up fa-4x"></i>
+                    </div> 
+                    <h2>Promote</h2>  
+                    <p>Quam facilisi nunc faucibus at porttitor vestibulum consequat dignissim tellus sollicitudin</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- galley-box(portfolio) -->
+        <div class="galley-box">
+            
+            <!--Navbar-toggle -->
+            <div class="togglebar-icon">
+                <i onclick="handleClick()" class="fas fa-bars"></i>
+            </div>
+            <div id="navbar" class="navbar-toggle">         
+                <ul>
+                    <li>All</li>
+                
+                    <li>Image</li>
+                
+                    <li>Text</li>
+
+                    <li>Video</li>
+                    </ul>
+            </div>
+            <!-- 1 -->
+            <div class="img-box">
+                <div class="green-box">
+                    <div class="green-box-text">
+                    <h1>Work</h1>
+                    <p>----Text</p>
+                    </div>
+                </div>
+                <img alt="payment-desk"src="https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8cGF5bWVudCUyMGRlc2t8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+            </div>
+
+            <!-- 2 -->
+            <div class="img-box">
+                <div class="green-box">
+                    <div class="green-box-text">
+                    <h1>Plants</h1>
+                    <p>----Image</p>
+                    </div>
+                </div>
+                <img alt="payment-desk"src="https://images.unsplash.com/photo-1556893289-5ccc75ebd2bf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGxlYWZ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            </div>
+
+            <!-- 3 -->
+            <div class="img-box">
+                <div class="green-box">
+                    <div class="green-box-text">
+                    <h1>Handmade</h1>
+                    <p>----Video</p>
+                    </div>
+                </div>
+                <img alt="payment-desk"src="https://images.unsplash.com/flagged/photo-1553370447-06bb9cac9c1c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNtYWxsJTIwcGxhbnRzJTIwaW4lMjBtdWd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            </div>
+
+            <!-- 4 -->
+            <div class="img-box">
+                <div class="green-box">
+                    <div class="green-box-text">
+                    <h1>Architecture</h1>
+                    <p>----Text</p>
+                    </div>
+                </div>
+                <img alt="payment-desk"src="https://images.unsplash.com/photo-1512621980408-e15e3c68ab0b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YXJjaGl0ZWN0dXJlJTIwYnVpbGRpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+            </div>
+
+            <!-- 5 -->
+            <div class="img-box">
+                <div class="green-box">
+                    <div class="green-box-text">
+                    <h1>Photography</h1>
+                    <p>----Image</p>
+                    </div>
+                </div>
+                <img alt="payment-desk"src="https://images.unsplash.com/photo-1594807929862-aa3a564c92c3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fHBob3RvZ3JhcGh5JTIwd2l0aCUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            </div>
+
+            <!-- 6 -->
+            <div class="img-box">
+                <div class="green-box">
+                    <div class="green-box-text">
+                    <h1>Art</h1>
+                    <p>----Text</p>
+                    </div>
+                </div>
+                <img alt="payment-desk"src="https://images.unsplash.com/photo-1499626662328-b83a935441a4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8bnVtYmVyJTIwd2l0aCUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            </div>
+        </div>
+     
+
+        <script>
+            function handleClick(){
+              var x=  document.getElementById("navbar");
+              x.classList.toggle("toggle-active");
+            }
+        </script>
+
+        <!-- Cover Letter -->
+
+        <div class="cover-letter">
+            <h1>Cover letter</h1>
+            <h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.
+            </h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris egestas nulla arcu, ut vestibulum diam vulputate non. Ut massa mauris, condimentum ut tincidunt eu, mattis euismod dolor.</p>
+                <p>Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat maecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Volutpat faucibus sed condimentum aliquet mi, nec lobortis neque gravida tempor.</p>
+                <p>Phasellus non dui sed eros scelerisque gravida eu lobortis magna. Sed vulputate, lacus blandit posuere aliquet, enim purus dignissim nunc, at efficitur nulla lacus id quam. Morbi feugiat neque a quam.</p>
+            </div>
+        </div>
+        
+        
+
+        <!-- skills-box() -->
+        <div class="skill-box">
+            <h1>Skills</h1>
+
+        <div style="display: block;text-align: center;">
+            
+            <div class="circle-div">
+                <div class="circle">
+                    <svg height="220" width="240">
+                        <circle class="circle-1" cx="115" cy="105" r="98" stroke="#6db363" stroke-width="30" fill="none"/>
+                    </svg>
+                    <h1>57%</h1>
+                </div>
+                <p>photography</p>
+            </div>
+
+            <div class="circle-div">
+                <div class="circle">
+                    <svg height="220" width="240">
+                        <circle class="circle-2" cx="115" cy="105" r="98" stroke="#6db363" stroke-width="30" fill="none"/>
+                    </svg>
+                    <h1>60%</h1>
+                </div>
+                <p>Marketing</p>
+            </div>
+
+
+            <div class="circle-div">
+                <div class="circle">
+                    <svg height="230" width="260"class="circle-3">
+                        <circle cx="118" cy="108" r="98" stroke="#6db363" stroke-width="30" fill="none"/>
+                    </svg>
+                    <h1>74%</h1>
+                </div>
+                <p>PhP</p>
+            </div>
+
+
+            <div class="circle-div">
+                <div class="circle">
+                    <svg height="220" width="220" class="circle-4" >
+                        <circle cx="119" cy="110" r="98" stroke="#6db363" stroke-width="30" fill="none"/>
+                    </svg>
+                    <h1>31%</h1>
+                </div>
+                <p>3D</p>
+            </div>
+        </div>
+        
+           
+            <!-- 1 -->
+            <div class="ability-div">
+                <h1>75%</h1>
+                <div class="skill-100">
+                    <div class="skill-percent percent-1"></div>
+                </div>
+                <p>Creativity</p>
+            </div>
+            <!-- 2 -->
+            <div class="ability-div">
+                <h1>48%</h1>
+                <div class="skill-100">
+                    <div class="skill-percent percent-2"></div>
+                </div>
+                <p>Cooking</p>
+            </div>
+            <!-- 3 -->
+            <div class="ability-div">
+                <h1>90%</h1>
+                <div class="skill-100">
+                    <div class="skill-percent percent-3"></div>
+                </div>
+                <p>PhP</p>
+            </div>
+            <!-- 4 -->
+            <div class="ability-div">
+                <h1>62%</h1>
+                <div class="skill-100">
+                    <div class="skill-percent percent-4"></div>
+                </div>
+                <p>Marketing</p>
+            </div>
+        </div>
+
+
+         <!-- contact-box -->
+
+        <div id="contact" class="contact-box">
+
+            <div class="head">
+                <h1>Get in touch</h1>
+                <p>Avul Pakir Jainulabdeen Abdul Kalam , 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and politician who served as the 11th President of India from 2002 to 2007</p>           
+            </div>
+         
+            <div class="statement">
+                <p>He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO)</p>
+            </div>
+
+            <div class="statement">
+                Kalam was elected as the 11th President of India in 2002 with the support of both the ruling Bharatiya Janata Party and the then-opposition Indian National Congress.
+            </div>
+
+            <div class="details">
+                <p>ADDRESS:<span> Some Street 987, USA</span></p>
+                <p>EMAIL:<span> company@youremail.com</span></p>
+                <p>WEBSITE:<span> www.yourwebsite.com</span></p>
+            </div>
+
+
+            <div class="form-box">
+
+                <div class="input-box">
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+
+                <div class="input-box">
+                    <input type="text" id="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="text" id="email" placeholder="Subject">
+                </div>
+
+                <div class="input-box">
+                    <textarea id="textarea" placeholder="Message..."></textarea>
+                </div>
+
+                <button class="button-submit">SEND</button>
+
+            </div>
+        </div>
+            
+
+    <script>
+
+        function openNavbar(){
+            document.getElementById("slide").classList.add("slide")
+        }
+        function closeNavbar(){
+            document.getElementById("slide").classList.remove("slide")
+        }
+
+    </script>
+
+    </body>
+
+</html>
