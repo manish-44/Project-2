@@ -473,6 +473,90 @@ body{
 }
 
 
+/* Experience */
+
+.list-item{
+    list-style: none;
+    margin-bottom: 40px;
+    margin-left: -96px;
+    padding-left: 98px;
+}
+
+.experience{
+   padding-left: 150px;
+   padding-right: 90px;
+   margin-left: 100px;
+   
+}
+
+.experience h1{
+    margin: 56px -63px;
+    color: #6DB363;
+}
+
+
+/* .li2::before{
+  content: "";
+  border: 2px solid #6DB363;
+  width: 3px;
+
+
+} */
+
+
+.circle{
+  border: 2px solid #6DB363;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  left: 200px;
+  /* z-index: -1; */
+}
+
+.inner{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color: #6DB363;
+}
+
+li p{
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    /* position: relative; */
+    /* padding: 0px 198px; */
+    /* position: relative; */
+    /* left: 90px; */
+}
+
+li:hover .inner{
+    opacity: 1;
+}
+
+/* .circle:hover .inner{
+    opacity: 1;
+} */
+
+
+@media screen and (max-width: 1020px){
+    .experience{
+        margin-top:30px;
+        margin-left: 0;
+        padding-left: 65px;
+        padding-right: 53px;
+    }
+    .experience h1{
+        margin: 0;
+        margin-bottom: 30px;
+
+    }
+    .circle{
+        left: 53px;
+    }
+}
 
 
 
