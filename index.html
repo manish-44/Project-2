@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Project 2 a</title>
+        <title>Project 2 main</title>
         <link rel="stylesheet"  type="text/css" href="style.css" >
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -53,7 +53,6 @@
         </div>
     
         <!-- introduce-box(portfolio) -->
-
         <div class="introduce-box">
             <h1>Introduce</h1>
             <p style="color:#6db363">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.</p>
@@ -119,13 +118,10 @@
             <div id="navbar" class="navbar-toggle">         
                 <ul>
                     <li>All</li>
-                
                     <li>Image</li>
-                
                     <li>Text</li>
-
                     <li>Video</li>
-                    </ul>
+                </ul>
             </div>
             <!-- 1 -->
             <div class="img-box">
@@ -195,13 +191,6 @@
         </div>
      
 
-        <script>
-            function handleClick(){
-              var x=  document.getElementById("navbar");
-              x.classList.toggle("toggle-active");
-            }
-        </script>
-
         <!-- Cover Letter -->
 
         <div class="cover-letter">
@@ -269,7 +258,7 @@
         <div class="skill-box">
             <h1>Skills</h1>
 
-        <div style="display: block;text-align: center;">
+            <div style="display: block;text-align: center;">
             
             <div class="circle-div">
                 <div class="circle">
@@ -323,6 +312,7 @@
                 </div>
                 <p>Creativity</p>
             </div>
+
             <!-- 2 -->
             <div class="ability-div">
                 <h1>48%</h1>
@@ -331,6 +321,7 @@
                 </div>
                 <p>Cooking</p>
             </div>
+
             <!-- 3 -->
             <div class="ability-div">
                 <h1>90%</h1>
@@ -339,6 +330,7 @@
                 </div>
                 <p>PhP</p>
             </div>
+
             <!-- 4 -->
             <div class="ability-div">
                 <h1>62%</h1>
@@ -396,7 +388,6 @@
 
             </div>
         </div>
-            
 
     <script>
 
@@ -405,6 +396,11 @@
         }
         function closeNavbar(){
             document.getElementById("slide").classList.remove("slide")
+        }
+
+        function handleClick(){
+              var x=  document.getElementById("navbar");
+              x.classList.toggle("toggle-active");
         }
 
     </script>
