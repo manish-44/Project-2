@@ -5,10 +5,10 @@ html{
 
 body{
     margin: 0;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    display:block;
     color:white;
+    display:block;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
     background-color:#2a2d30;
 }
 
@@ -23,8 +23,8 @@ body{
 
 }
 .open-navbar{
-    background-color: #232329;
     width: 91px;
+    background-color: #232329;
 }
 .slide-navbar{
     background-color: #6DB363;
@@ -93,6 +93,7 @@ body{
 
 
  /* Section-2 Home Section */
+
 .home{
     height: 800px;
     margin-left: 83px;
@@ -137,7 +138,7 @@ body{
     border-radius: 6rem / 6rem;
 }
 
-.btn-blog,.btn-contact,.btn-download{
+.btn-blog,.btn-contact,.btn-download,.btn-portfolio{
     background-color: #232329;
 }
 
@@ -229,6 +230,8 @@ body{
     cursor: pointer;
     font-weight: bold;
     outline-style: none;
+    transition: 0.5s;
+    border: none;
     background-color: transparent;
 }
 
@@ -307,7 +310,7 @@ body{
 }
 
 
-/* ................part4....(img-portfolio).........................*/
+/* Section-4 Image Portfolio */
 
 .galley-box img{                            /*::::::: changed*/
     width:100%;
@@ -455,7 +458,7 @@ body{
 }
 }
 
-/* Section Cover Latter */
+/* Section-5 Cover Latter */
 
 .cover-letter{
     font-family: sans-serif ;
@@ -484,7 +487,7 @@ margin: 0;
 }
 
 
-/* Experience */
+/* Section-6 Experience */
 
 .list-item{
     list-style: none;
@@ -550,7 +553,7 @@ margin: 0;
 }
 
 
-/* Section Skill */
+/* Section-7  Skill */
 
 .skill-box{
     /* margin:auto;    himanshu remove this 
@@ -682,7 +685,7 @@ margin: 0;
 }
 
 
-/* Section  Contact Us */
+/* Section-8 Contact Us */
 
 .contact-box{
     display:block;
@@ -736,7 +739,7 @@ margin: 0;
 }
 
 .contact-box  input,textarea{
-    border-bottom:2px solid white;                            /*:::::::*/
+    border-bottom:2px solid white  !important;                            /*:::::::*/
     outline-style: none;
     border:none;
     width:100%;
