@@ -719,13 +719,18 @@ body{
         margin-left:40px;
     }
 }
-@media screen and (max-width:1020px){
+@media screen and (max-width: 1020px){
     .skill-box{
         margin: 0 ;                       /* Himanshu added this media part */
         padding: 50px 53px;
     }
 }
 
+@media screen and (max-width: 650px){
+    .skill-box{
+        padding: 50px 40px;
+    }
+}
 
 /* Section-8 Contact Us */
 
