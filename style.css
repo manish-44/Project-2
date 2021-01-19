@@ -6,7 +6,7 @@ html{
 body{
     margin: 0;
     color:white;
-    display:block;
+    /* display:block; */
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
     background-color:#2a2d30;
@@ -309,7 +309,6 @@ body{
     }
 }
 
-
 /* Section-4 Image Portfolio */
 
 .galley-box img{                            /*::::::: changed*/
@@ -482,8 +481,14 @@ body{
 
 @media screen and (max-width: 1020px){
 .cover-letter{
-margin: 0;
+    margin: 0;
 }
+}
+ 
+@media screen and (max-width: 650px){
+    .cover-letter{
+        padding: 0 40px;
+    }
 }
 
 
@@ -497,23 +502,30 @@ margin: 0;
 }
 
 .experience{
-   padding-left: 150px;
-   padding-right: 90px;
+   /* padding-left: 150px; */
+   /* padding-right: 90px; */
    margin-left: 100px;
    
 }
 
 .experience h1{
-    margin: 56px -63px;
+    /* margin: 56px -63px; */
+    padding: 0 53px;
     color: #6DB363;
 }
 
+.experience ul{
+    padding-inline-start: 0;
+    padding-left: 210px;
+    padding-right: 53px;
+}
+
 .experience .circle{                  /* SM  changed*/
-  border: 2px solid #6DB363;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  left: 200px;
+    border: 2px solid #6DB363;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 220px;
 }
 
 .inner{
@@ -525,6 +537,12 @@ margin: 0;
     background-color: #6DB363;
 }
 
+.experience .year{
+    position: absolute;
+    display: inline;
+    left: 153px;
+    transition: 0.5s;
+}
 .experience li p{                                               /*::::::: changed*/
     font-family: sans-serif; 
     font-weight: bold;
@@ -532,26 +550,50 @@ margin: 0;
 }
 
 .experience li:hover .inner{                              /*::::::: changed*/
-    opacity: 1;
+    opacity: 1
+}
+.experience li:hover .year{
+    left: 130px;
 }
 
 @media screen and (max-width: 1020px){
     .experience{
         margin-top:30px;
         margin-left: 0;
-        padding-left: 65px;
-        padding-right: 53px;
+        /* padding-left: 65px; */
+        /* padding-right: 53px; */
     }
     .experience h1{
         margin: 0;
         margin-bottom: 30px;
-
+    }
+    .experience .year{
+        left: 53px;
     }
    .experience .circle{                    /* SM changed*/
-        left: 53px;
+        left: 130px;
+    }
+
+    .experience li:hover .year{
+        left: 30px;
     }
 }
 
+@media screen and (max-width:650px){
+.experience h1{
+    padding: 0 40px;
+}
+.experience ul{
+    padding-right: 40px;
+    padding-left: 190px;
+}
+.experience .year{
+    left: 40px;
+}
+.experience .circle{
+    left: 100px;
+}
+}
 
 /* Section-7  Skill */
 
@@ -781,5 +823,11 @@ margin: 0;
     .contact-box{
         margin: 0;                /* hiamsnhu added this media section */
         padding: 0 53px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .contact-box{
+        padding: 0 40px;
     }
 }
