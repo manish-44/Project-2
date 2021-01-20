@@ -719,13 +719,18 @@ body{
         margin-left:40px;
     }
 }
-@media screen and (max-width:1020px){
+@media screen and (max-width: 1020px){
     .skill-box{
         margin: 0 ;                       /* Himanshu added this media part */
         padding: 50px 53px;
     }
 }
 
+@media screen and (max-width: 650px){
+    .skill-box{
+        padding: 50px 40px;
+    }
+}
 
 /* Section-8 Contact Us */
 
@@ -767,7 +772,7 @@ body{
     margin-bottom: 40px;;
 }
 
-.contact-box input{                                        /*:::::::*/
+.contact-box .user-input{                                        /*:::::::*/
     height:30px;
 }
 
@@ -775,12 +780,12 @@ body{
     height:150px;                                /*:::::::*/
 }
 
-.contact-box  input,textarea,.button-submit{
+.contact-box  .user-input,textarea,.button-submit{
     background-color: transparent;
     font-size: 15px;
 }
 
-.contact-box  input,textarea{
+.contact-box  .user-input,textarea{
     border-bottom:2px solid white  !important;                            /*:::::::*/
     outline-style: none;
     border:none;
