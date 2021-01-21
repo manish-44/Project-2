@@ -224,7 +224,7 @@ body{
 .introduce-button{
     font-size: 15px;
     margin-top:45px;
-    padding:20px 40px;
+    padding:16px 40px;
     border-radius: 30px;
     color:white;
     cursor: pointer;
@@ -232,7 +232,9 @@ body{
     outline-style: none;
     transition: 0.5s;
     border: none;
+    display: inline-block;
     background-color: transparent;
+    text-decoration: none;
 }
 
 .button1{
