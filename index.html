@@ -25,13 +25,13 @@
         <div id="slide" class="slide-navbar">
             <div>
                 <p onclick="closeNavbar()" class="close-navbar">&times;</p>
-                <p> Home </p>
-                <p>Introduction</p>
-                <p>Portfolio</p>
-                <p> Experince</p>
-                <p>Skill</p>
-                <p>Contact</p>
-                <p>Blog</p>
+                <p> <a href="#home" onclick="closeNavbar()" > Home </a></p>
+                <p> <a href="#introduction-box" onclick="closeNavbar()" > Introduction </a></p>
+                <p> <a href="#image-portfolio" onclick="closeNavbar()" > Portfolio </a></p>
+                <p> <a href="#experience" onclick="closeNavbar()" > Experince </a></p>
+                <p> <a href="#skill" onclick="closeNavbar()" > Skill </a></p>
+                <p> <a href="#contact" onclick="closeNavbar()" > Contact </a></p>
+                <p> <a href="#" onclick="closeNavbar()" > Blog </a></p>
             </div>
         </div>
     
@@ -43,10 +43,10 @@
                 <img src="https://images.unsplash.com/photo-1521112376370-0a3b01544ab1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhcHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="background image">
             </div>
                 <div>
-                    <a class="btn-blog">My blog</a>
-                    <a class="btn-contact" >Contact Me</a>
-                    <a class="btn-download">Download CV</a>
-                    <a class="btn-portfolio">Check My Portfolio</a>
+                    <a class="btn-blog" href="#">My blog</a>
+                    <a class="btn-contact" href="#contact" >Contact Me</a>
+                    <a class="btn-download" href="#experience">Download CV</a>
+                    <a class="btn-portfolio" href="#image-portfolio" >Check My Portfolio</a>
                 </div>
             <div class="home-div-2">
                 <p class="home-para">Hello <br> I’m Jacob <br> Hawkins</p>
@@ -55,7 +55,7 @@
     
         <!-- Section-3 Introduction -->
 
-        <div class="introduce-box">
+        <div class="introduce-box" id="introduction-box">
             <h1>Introduce</h1>
             <p style="color:#6db363">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet tellus pharetra erat tristique erat donec dignissim etiam sed malesik enim sodales lorem ipsum donac.</p>
@@ -69,8 +69,8 @@
                 <p><span>WEBSITE:</span>www.yourwebsite.com</p>     
             </div>
 
-            <button class="introduce-button button1">Download CV</button>
-            <button class="introduce-button button2">Check my Portfolio</button>
+            <a class="introduce-button button1" href="#">Download CV</a>
+            <a class="introduce-button button2" href="#image-portfolio">Check my Portfolio</a>
 
             <div class="portfolio-design-box">
 
@@ -113,7 +113,7 @@
         <!-- Section-4 Image Portfolio -->
 
 
-        <div class="galley-box">
+        <div class="galley-box" id="image-portfolio">
             
             <!--Navbar-toggle -->
             <div class="togglebar-icon">
@@ -195,21 +195,8 @@
         </div>
      
 
-        <!--Section-5 Cover Latter -->
+        <!--Section-5 Experience -->
 
-        <div class="cover-letter">
-            <h1>Cover letter</h1>
-            <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.
-            </h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris egestas nulla arcu, ut vestibulum diam vulputate non. Ut massa mauris, condimentum ut tincidunt eu, mattis euismod dolor.</p>
-                <p>Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat maecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Volutpat faucibus sed condimentum aliquet mi, nec lobortis neque gravida tempor.</p>
-                <p>Phasellus non dui sed eros scelerisque gravida eu lobortis magna. Sed vulputate, lacus blandit posuere aliquet, enim purus dignissim nunc, at efficitur nulla lacus id quam. Morbi feugiat neque a quam.</p>
-            </div>
-        </div>
-        
-          <!--  Section-6 Experience -->
 
     <div id = "experience" class="experience">
 
@@ -260,12 +247,25 @@
         </ul>
      </div>
 
+     <!--  Section-6 Cover-latter -->
 
+
+    <div class="cover-letter">
+        <h1>Cover letter</h1>
+        <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.
+        </h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris egestas nulla arcu, ut vestibulum diam vulputate non. Ut massa mauris, condimentum ut tincidunt eu, mattis euismod dolor.</p>
+            <p>Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat maecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Volutpat faucibus sed condimentum aliquet mi, nec lobortis neque gravida tempor.</p>
+            <p>Phasellus non dui sed eros scelerisque gravida eu lobortis magna. Sed vulputate, lacus blandit posuere aliquet, enim purus dignissim nunc, at efficitur nulla lacus id quam. Morbi feugiat neque a quam.</p>
+        </div>
+    </div>
 
 
         <!-- Section-7  Skill -->
 
-        <div class="skill-box">
+        <div class="skill-box" id="skill">
             <h1>Skills</h1>
 
             <div style="display: block;text-align: center;">
