@@ -130,7 +130,7 @@ body{
 .home-background{
     text-align: center;
     height:90% !important;
-    
+    overflow: hidden;
 }
 
 .home-background img{
@@ -265,7 +265,6 @@ body{
 
 .button1{
     background-color: black;
-    margin-right: 25px;
 }
 
 .button2{
@@ -314,15 +313,6 @@ body{
     padding:20px;
     margin-left:5px;
     transform:rotate(-50deg);
-}
-
-@media screen and (max-width: 457px){
-    .introduce-button{
-        margin-top: 18px;
-    }
-    .button2{
-        margin-bottom: 30px;
-    }
 }
 
 @media screen and (max-width: 650px){
@@ -635,23 +625,17 @@ body{
 
 @media screen and (max-width:650px){
 .experience h1{
-    padding: 0 4%;
+    padding: 0 40px;
 }
 .experience ul{
-    padding-right: 4%;
-    /* padding-left: 190px; */
+    padding-right: 40px;
+    padding-left: 190px;
 }
 .experience .year{
-    left: 4%;
+    left: 40px;
 }
 .experience .circle{
-    left: 15%;
-}
-.list-item{
-    padding-left: 5%;
-}
-.experience li:hover .year{
-    left: 2%;
+    left: 100px;
 }
 }
 
