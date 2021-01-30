@@ -44,9 +44,11 @@ body{
     left: 36px;
 }
 
+
 .nav-blog{
     margin-bottom: 100px;
 }
+
 .open-navbar p{
     top: 12px;
 }
@@ -358,19 +360,20 @@ body{
 }
 
 .navbar-toggle{
-    transition: 0.3s ease;
-    z-index: -2;
-    width:80px;
+    overflow: hidden;
+    background-color: #131111;
+    transition: 0.25s;
+    width:100px;
+    padding:0px 10px;
     height:0px;
-    padding:10px;
+    z-index: 1;
     right: 3%;
 }
 
 .toggle-active{
-    background-color: #131111;
-    z-index:1;
+
     height:130px;
-    top:0%;
+    opacity: 0.9;
 }
 
 .navbar-toggle>ul>li{
@@ -678,14 +681,14 @@ body{
 
 .circle-3{
     stroke-dasharray: 440;
-    margin-left:-135px;
+    margin-left:-135px !important;
 }
 
 .circle-4{
-    transform: rotate(-40deg);
+    transform: rotate(-40deg) !important;
     stroke-dasharray: 220;
     stroke-dashoffset:220;
-    margin-left:-115px;
+    margin-left: -105px !important;
 }
 
 .skill-box .circle>h1{                          /* SM changed*/
@@ -823,10 +826,12 @@ body{
     margin:auto;
     margin-bottom:60px;
     width:90%;
+    box-shadow:0px 0px 0 transparent;
 }
 
 input:-webkit-autofill{
     -webkit-text-fill-color: white;
+    box-shadow:0px 0px 0 transparent;
     -webkit-box-shadow: 0 0 0px 1000px #6db363 inset;
 }
 
