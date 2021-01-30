@@ -122,11 +122,14 @@ body{
     padding-top: 30px;
     background: url("https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDkzfFM0TUtMQXNCQjc0fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:cover;
+    object-fit: cover;
 }
 
 .home-background{
     text-align: center;
+    height:90% !important;
+    overflow: hidden;
 }
 
 .home-background img{
@@ -321,7 +324,7 @@ body{
     }
     
     .small-portfolio-box{
-        text-align:center;
+
         width:100%;
         padding-left:0px;
         margin-top:40px;
@@ -362,7 +365,7 @@ body{
 }
 
 .togglebar-icon{
-    z-index:2;
+    z-index:1;
     right:20px;
 }
 
