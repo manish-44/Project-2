@@ -12,6 +12,20 @@ function handleClick(){
 }
 
 
+// Image Gallary
+
+var imageGallaryNavElement = document.getElementsByClassName("imageGallary-nav-btn");
+
+for(var i = 0 ; i < imageGallaryNavElement.length ; i++){
+    imageGallaryNavElement[i].addEventListener("click",function(){
+        var current = document.getElementsByClassName("imageGallary-nav-active-element");
+        current[0].className = current[0].className.replace("imageGallary-nav-active-element","");
+        this.className += " imageGallary-nav-active-element"
+    })
+}
+
+
+
 // Contact Box
 
 function checkForBlank(){

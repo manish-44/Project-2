@@ -359,6 +359,10 @@ body{
     right:20px;
 }
 
+.togglebar-icon i{
+    cursor: pointer;
+}
+
 .navbar-toggle{
     overflow: hidden;
     background-color: #131111;
@@ -368,6 +372,10 @@ body{
     height:0px;
     z-index: 1;
     right: 3%;
+}
+
+.imageGallary-nav-active-element{
+    color: #6db363;
 }
 
 .toggle-active{
