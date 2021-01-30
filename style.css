@@ -312,12 +312,9 @@ body{
     transform:rotate(-50deg);
 }
 
-@media screen and (max-width: 457px){
-    .introduce-button{
-        margin-top: 18px;
-    }
-    .button2{
-        margin-bottom: 30px;
+@media screen and (max-width:1024px){
+    .introduce-box{
+        margin-left: 0;
     }
 }
 
@@ -344,11 +341,15 @@ body{
 
 }
 
-@media screen and (max-width:1024px){
-    .introduce-box{
-        margin-left: 0;
+@media screen and (max-width: 457px){
+    .introduce-button{
+        margin-top: 18px;
+    }
+    .button2{
+        margin-bottom: 30px;
     }
 }
+
 
 /* Section-4 Image Portfolio */
 
@@ -629,7 +630,7 @@ body{
     }
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width: 650px){
 .experience h1{
     padding: 0 4%;
 }
@@ -641,7 +642,7 @@ body{
     left: 4%;
 }
 .experience .circle{
-    left: 15%;
+    left: 13%;
 }
 .list-item{
     padding-left: 5%;
@@ -649,6 +650,19 @@ body{
 .experience li:hover .year{
     left: 2%;
 }
+
+@media screen and (max-width: 530px){
+    .experience .circle{
+        left: 16%;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .experience .circle{
+        left: 19%;
+    }
+}
+
 }
 
 /* Section-7  Skill */
@@ -764,6 +778,13 @@ body{
     width:62%;
 }
 
+@media screen and (max-width: 1020px){
+    .skill-box{
+        margin: 0 ;                       /* Himanshu added this media part */
+        padding: 50px 53px;
+    }
+}
+
 
 @media (min-width:700px){
     /* .skill-box{
@@ -773,12 +794,6 @@ body{
     .circle-div{
         display: inline-block;
         margin-left:40px;
-    }
-}
-@media screen and (max-width: 1020px){
-    .skill-box{
-        margin: 0 ;                       /* Himanshu added this media part */
-        padding: 50px 53px;
     }
 }
 
