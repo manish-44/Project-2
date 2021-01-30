@@ -380,14 +380,14 @@
             <div class="form-box">
 
                 
-                <form  onsubmit="checkForBlank()">
+                <form  onsubmit="checkForBlank() ; return false">
                     
                     <div class="input-box">
                         <input class="user-input" type="text" id="name" placeholder="Name" >
                         <p id="nameRequired">This feild is required</p>
                     </div>
                     <div class="input-box">
-                        <input  class="user-input" type="email" id="email" placeholder="Email">
+                        <input  class="user-input" type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                         <p id="emailRequired">This feild is required</p>
                     </div>
                     <div class="input-box">
