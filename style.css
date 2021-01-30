@@ -44,6 +44,9 @@ body{
     left: 36px;
 }
 
+.nav-blog{
+    padding-bottom: 100px;
+}
 .open-navbar p{
     top: 12px;
 }
