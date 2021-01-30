@@ -261,6 +261,7 @@ body{
 
 .button1{
     background-color: black;
+    margin-right: 25px;
 }
 
 .button2{
@@ -309,6 +310,15 @@ body{
     padding:20px;
     margin-left:5px;
     transform:rotate(-50deg);
+}
+
+@media screen and (max-width: 457px){
+    .introduce-button{
+        margin-top: 18px;
+    }
+    .button2{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 650px){
