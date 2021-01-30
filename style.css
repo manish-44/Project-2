@@ -234,7 +234,7 @@ body{
     /* padding:5%;            himanshu remove this 
     margin-left:7%; */
 
-    margin: 100px;           /* himanshu added this */
+    margin-left: 100px;           /* himanshu added this */
     padding: 0 53px;          /* himanshu added this */
     line-height: 30px;
 }
@@ -311,11 +311,11 @@ body{
     transform:rotate(-50deg);
 }
 
-@media (max-width:760px) and (min-width:300px){
+@media screen and (max-width: 650px){
     .introduce-box{
         /* width:92%; */          /*himanshu has changed width*/
         /* padding:3%;  */       /*himanshu has changed padding*/
-        padding: 0 53px;       
+        padding: 0 4%;       
         margin-left:0;
         
     }
