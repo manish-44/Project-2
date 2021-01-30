@@ -124,12 +124,13 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     object-fit: cover;
+    background-attachment: fixed;
 }
 
 .home-background{
     text-align: center;
     height:90% !important;
-    overflow: hidden;
+    ove
 }
 
 .home-background img{
