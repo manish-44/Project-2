@@ -818,6 +818,20 @@ body{
     width:91%;
 }
 
+.blank-input{
+    padding: 20px 0px;
+    text-align: center;
+    color: #ff5e78;
+    display: none;
+}
+
+#nameRequired{
+    display: none;
+}
+
+#emailRequired{
+    display: none;
+}
 /* @media (max-width:760px) and (min-width:300px){
     .contact-box{
         margin-left:1%;

@@ -380,13 +380,15 @@
             <div class="form-box">
 
                 
-                <form>
+                <form  onsubmit="checkForBlank()">
                     
                     <div class="input-box">
-                        <input class="user-input" type="text"  placeholder="Name" required>
+                        <input class="user-input" type="text" id="name" placeholder="Name" >
+                        <p id="nameRequired">This feild is required</p>
                     </div>
                     <div class="input-box">
-                        <input  class="user-input" type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"   placeholder="Email" required>
+                        <input  class="user-input" type="email" id="email" placeholder="Email">
+                        <p id="emailRequired">This feild is required</p>
                     </div>
                     <div class="input-box">
                         <input  class="user-input" type="text"  placeholder="Subject">
@@ -395,26 +397,13 @@
                         <textarea  placeholder="Message..."></textarea>
                     </div>
                     <input  class="button-submit" type="submit" value="SEND">
+                    <p class="blank-input" id="blankInput">One or more fields have an error. Please check and try again.</p>
                     
                 </form>
             </div>
         </div>
 
-    <script>
-
-        function openNavbar(){
-            document.getElementById("slide").classList.add("slide")
-        }
-        function closeNavbar(){
-            document.getElementById("slide").classList.remove("slide")
-        }
-
-        function handleClick(){
-              var x=  document.getElementById("navbar");
-              x.classList.toggle("toggle-active");
-        }
-
-    </script>
+<script src="./index.js"></script>
 
     </body>
 
