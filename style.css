@@ -631,17 +631,23 @@ body{
 
 @media screen and (max-width:650px){
 .experience h1{
-    padding: 0 40px;
+    padding: 0 4%;
 }
 .experience ul{
-    padding-right: 40px;
-    padding-left: 190px;
+    padding-right: 4%;
+    /* padding-left: 190px; */
 }
 .experience .year{
-    left: 40px;
+    left: 4%;
 }
 .experience .circle{
-    left: 100px;
+    left: 15%;
+}
+.list-item{
+    padding-left: 5%;
+}
+.experience li:hover .year{
+    left: 2%;
 }
 }
 
