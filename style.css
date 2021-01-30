@@ -45,7 +45,7 @@ body{
 }
 
 .nav-blog{
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 .open-navbar p{
     top: 12px;
@@ -68,6 +68,23 @@ body{
 .slide-navbar a{
     text-decoration-line: none;
     color: #ffffff;
+    display: inline-block;
+    position: relative;
+}
+.slide-navbar a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 20px;
+    background-color: #60a058;
+    transition: width .3s;
+    position: absolute;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.slide-navbar a:hover:after{
+    width: 110%;
 }
 
 @media screen and (max-width : 1020px){
