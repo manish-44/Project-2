@@ -319,10 +319,17 @@ body{
         margin-left:0;
         
     }
-
+    
     .small-portfolio-box{
+        text-align:center;
         width:100%;
         padding-left:0px;
+        margin-top:40px;
+    }
+
+    .design-box{
+        display: block;
+        margin:auto;
     }
 
 }
