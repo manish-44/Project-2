@@ -761,7 +761,7 @@ body{
 
 @media screen and (max-width: 650px){
     .skill-box{
-        padding: 50px 40px;
+        padding: 50px 4%;
     }
 }
 
