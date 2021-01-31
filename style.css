@@ -645,11 +645,11 @@ body{
     padding-left: 190px;
 }
 .experience .year{
-    left: 40px;
+    left: 3%;
 }
 .experience .circle{
 
-    left: 13%;
+    left: 11%;
 }
 .list-item{
     padding-left: 5%;
@@ -658,21 +658,49 @@ body{
     left: 2%;
 
 }
+}
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 580px){
     .experience .circle{
-        left: 16%;
+        left: 12%;
     }
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 500px){
     .experience .circle{
-        left: 19%;
+        left: 13%;
+    }
+    .experience .year{
+        left: 2.5%;
     }
 }
 
+
+@media screen and (max-width: 440px){
+    .experience .circle{
+        left: 14%;
+    }
+    .experience .year{
+        left: 1.5%;
+    }
 }
 
+
+@media screen and (max-width: 370px){
+    .experience .circle{
+        left: 15%;
+    }
+    .experience .year{
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .experience .circle{
+        left: 16.5%;
+    }
+
+}
 /* Section-7  Skill */
 
 .skill-box{
