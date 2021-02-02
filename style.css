@@ -321,6 +321,9 @@ body{
     .introduce-box{
         margin-left: 0;
     }
+    .href-intro{
+        height: 45px;
+    }
 }
 
 
@@ -484,6 +487,10 @@ body{
 }
 
 @media (min-width:1024px){
+
+    .href-image-portfolio{
+        height: 45px !important;
+    }
   .galley-box  img{
         height:300px;                 /*::::::: changed*/
     }
@@ -614,6 +621,9 @@ body{
 }
 
 @media screen and (max-width: 1020px){
+    .href-exp{
+        height: 45px;
+    }
     .experience{
         margin-top:30px;
         margin-left: 0;
@@ -953,6 +963,10 @@ input:-webkit-autofill{
 } */
 
 @media screen and (max-width:1020px){
+    .href-contact{
+        height: 45px;
+    }
+    
     .contact-box{
         margin: 0;                /* hiamsnhu added this media section */
         padding: 0 53px;
